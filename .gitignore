@@ -1,0 +1,23 @@
+
+---
+
+# 📄 5. `.gitignore`
+
+(esse você já tem, mas reforçando)
+
+```gitignore
+log.html
+report.html
+output.xml
+selenium-screenshot*.png
+
+results/
+
+__pycache__/
+*.pyc
+
+venv/
+.env/
+
+.vscode/
+.idea/
