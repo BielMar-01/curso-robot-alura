@@ -11,3 +11,7 @@ Preencher os campos do formulário
     Input Text    id:form-imagem    https://picsum.photos/200/300
     Click Element    class:lista-suspensa
     Click Element    //option[contains(.,'Programação')]
+	Sleep    10s
+    Click Element    id:form-botao
+    Element Should Be Visible    class:colaborador
+    Sleep    5s
