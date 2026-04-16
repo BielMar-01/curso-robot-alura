@@ -1,6 +1,7 @@
 *** Settings ***
-Library          SeleniumLibrary
-Resource         setup_teardown.robot
+Resource         ../resources/main.robot
+Resource    ../resources/pages/cadastro.robot
+
 Test Setup       Dado que eu acesse o Organo
 Test Teardown    Fechar o navegador
 
